@@ -1,0 +1,12 @@
+<!--pages/index/pages/firmProfile/firmProfile.wxml-->
+<view class='indexCarDetail'>
+    <image src='../../../../image/blueTopImage.jpg'></image>
+</view>
+<view class='title'>
+    <image src='../../../../image/waveLine.svg'></image>
+    <view>清行企业概况</view>
+    <image src='../../../../image/waveLine.svg'></image>
+</view>
+<view class='profileBox'>
+    <image src='../../../../image/jianjie.svg'></image>
+</view>

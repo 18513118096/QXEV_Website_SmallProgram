@@ -1,0 +1,22 @@
+<!--pages/index/pages/map/map.wxml-->
+<view class='indexCarDetail'>
+    <image src='../../../../image/blueTopImage.jpg'></image>
+</view>
+<view class='title'>
+    <image src='../../../../image/waveLine.svg'></image>
+    <view>北京清行智能科技有限公司</view>
+    <image src='../../../../image/waveLine.svg'></image>
+</view>
+<view class='mapContent'>
+    <image src='../../../../image/mapLine.svg'></image>
+    <view class='mapBox mapBoxFirst'>
+      <view class='mapTitle'>北京公司</view>
+      <view  class='detailLocation'>北京市昌平区回龙观龙域中街1号院1号楼龙域中心B座</view>
+      <view  class="detailBut" data-address="北京市昌平区回龙观龙域中街1号院1号楼龙域中心B座" data-addressName="北京清行智能科技有限公司（北京公司）" bindtap='mapShow'>点击进入</view>
+    </view>
+    <view class='mapBox'>
+      <view class='mapTitle'>吉林工业园</view>
+      <view  class='detailLocation'>吉林省吉林市高新区（汽车工业园区）东山街2888号</view>
+      <view  class="detailBut" data-address="吉林省吉林市高新区（汽车工业园区）东山街2888号" data-addressName="北京清行智能科技有限公司（吉林工业园）"  bindtap='mapShow'>点击进入</view>
+    </view>
+</view>

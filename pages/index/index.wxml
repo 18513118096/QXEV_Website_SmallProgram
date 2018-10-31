@@ -1,0 +1,68 @@
+<!-- 轮播图 -->
+<view>
+  <swiper class="indexSwiper" indicator-dots="{{indicatorDots}}" indicator-color="#eeeeee" indicator-active-color="#0b74b9" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+     <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src='{{item}}'  class="slide-image" ></image>
+        </swiper-item>
+      </block>
+  </swiper>
+</view>
+<!-- 公司简介、一键导航、业务咨询、售后服务 -->
+<view class='index_list'>
+   <navigator  class='index_li' url='pages/firmProfile/firmProfile'>
+      <image src='../../image/companyProfile.svg'></image>
+      <view>公司简介</view>
+   </navigator>
+    <navigator class='index_li' url="pages/map/map">
+      <image src='../../image/navigation.svg'></image>
+      <view>一键导航</view>
+   </navigator>
+    <navigator  class='index_li' url='pages/businessAsk/businessAsk'>
+      <image src='../../image/businessAsk.svg'></image>
+      <view>业务咨询</view>
+   </navigator>
+    <navigator  class='index_li' url='pages/afterSale/afterSale'>
+      <image src='../../image/afterService.svg'></image>
+      <view>售后服务</view>
+   </navigator>
+</view>
+<!-- 清行400车辆图片介绍 -->
+<view class='indexCarDetail'>
+    <image src='../../image/swiperIndex2.jpg'></image>
+</view>
+<!-- 车辆标题 -->
+<view class='title'>
+    <image src='../../image/waveLine.svg'></image>
+    <view>清行400</view>
+    <image src='../../image/waveLine.svg'></image>
+</view>
+<!-- 旋转木马式轮播图 -->
+<view class="banner-swiper">
+    <image class='leftArrow' src='../../image/leftArrow.svg'></image>
+    <swiper current='{{swiperCurrent}}' 
+    previous-margin="60rpx" next-margin="60rpx" bindchange="swiperChange" circular>
+      <block wx:for="{{handImgUrls}}" wx:key="key">
+        <swiper-item>
+         <image src="{{item.image}}" class="slide-image{{index == swiperCurrent ? ' active' : ''}}" 
+        bindchange="chuangEvent" id="{{index}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+    <image class='rightArrow' src='../../image/rightArrow.svg'></image>
+     <view class='carInstruction' wx:for="{{handImgUrls}}" wx:key="key" wx:if="{{swiperCurrent==index}}">
+       {{item.words}}
+ </view> 
+</view>
+ <navigator   open-type='switchTab' url='../product/product' class="detailBut" > 查看详情 </navigator>
+ <!-- 宣传片标题 -->
+<view class='title'>
+    <image src='../../image/waveLine.svg'></image>
+    <view>清行企业宣传片</view>
+    <image src='../../image/waveLine.svg'></image>
+</view>
+ <!-- 视频播放 -->
+ <video id='myVideo' bindplay='play' Autoplay='{{paly}}' src="{{videoSrc}}" poster="{{videoPoster}}" objectFit='fill'></video>
+ <!-- 客服 -->
+ <image src='../../image/customer.svg' class='customer' data-phone="18513118096" bindtap="phoneCall"></image>
+ 

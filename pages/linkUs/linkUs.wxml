@@ -1,0 +1,48 @@
+<!--pages/linkUs/linkUs.wxml-->
+<view class='indexCarDetail'>
+    <image src='../../image/blueTopImage.jpg'></image>
+</view>
+<view class='title'>
+    <image src='../../image/waveLine.svg'></image>
+    <view>北京清行智能科技有限公司</view>
+    <image src='../../image/waveLine.svg'></image>
+</view>
+  <view class='aboutUs mt36'>
+       <view class='about_list' bindtap='addressShow' data-isShow="{{addresHide}}">
+          <view class='fl'><image src='../../image/linkUs1.svg'></image>公司地址</view>
+          <view class='fr' wx:if="{{addresHide}}"><image src='../../image/sideUp.svg'></image></view>
+           <view class='fr' wx:if="{{!addresHide}}"><image src='../../image/sideDown.svg'></image></view>
+       </view>
+       <view class='about_detail' wx:if="{{addresHide}}">
+         <view>北京市昌平区回龙观龙域中街1号院1号楼龙域中心B座6层</view>
+         <view>吉林省吉林市高新区（汽车工业园区）东山街2888号</view>
+       </view>
+  </view>
+   <view class='aboutUs'>
+       <view class='about_list'>
+          <view class='fl'><image src='../../image/linkUs2.svg'></image>企业官网</view>
+          <view class='fr'>http://www.qxev.com</view>
+       </view>
+  </view>
+    <view class='aboutUs'>
+       <view class='about_list'>
+          <view class='fl'><image src='../../image/linkUs3.svg'></image>服务热线</view>
+          <view class='fr'>400-117-6997</view>
+       </view>
+  </view>
+  <view class='aboutUs'>
+       <view class='about_list' bindtap='codeShow' data-isShow="{{codeHide}}">
+          <view class='fl'><image src='../../image/linkUs4.svg'></image>二维码</view>
+          <view class='fr'>
+            <view class='fr' wx:if="{{codeHide}}"><image src='../../image/sideUp.svg'></image></view>
+           <view class='fr' wx:if="{{!codeHide}}"><image src='../../image/sideDown.svg'></image></view>
+          </view>
+       </view>
+       <view class='about_detail' wx:if="{{codeHide}}">
+           <image src='../../image/erweima.png'></image>
+           <text>扫描关注清行公众号</text>
+       </view>
+  </view>
+  
+    
+    

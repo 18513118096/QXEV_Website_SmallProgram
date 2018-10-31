@@ -1,0 +1,28 @@
+<!--pages/index/pages/afterSale/afterSale.wxml-->
+<view class='indexCarDetail'>
+    <image src='../../../../image/blueTopImage.jpg'></image>
+</view>
+<view class='title'>
+    <image src='../../../../image/waveLine.svg'></image>
+    <view>前端服务管理提升</view>
+    <image src='../../../../image/waveLine.svg'></image>
+</view>
+<view class='afterSaleBox'>
+    <view class='after_list' wx:for="{{afterSaleList_font}}">
+       <image src='{{item.image}}'></image>
+        <view class='servetitle'>{{item.title}}</view>
+        <view class='serverDetail'>{{item.detail}}</view>
+    </view>
+</view>
+<view class='title'>
+    <image src='../../../../image/waveLine.svg'></image>
+    <view>后端业务保障提升</view>
+    <image src='../../../../image/waveLine.svg'></image>
+</view>
+<view class='afterSaleBox'>
+    <view class='after_list' wx:for="{{afterSaleList_end}}">
+       <image src='{{item.image}}'></image>
+        <view class='servetitle'>{{item.title}}</view>
+        <view class='serverDetail'>{{item.detail}}</view>
+    </view>
+</view>

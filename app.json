@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/news/news",
+    "pages/news/pages/navigate/navigate",
+    "pages/news/pages/newsVedio/newsVedio",
+    "pages/index/pages/firmProfile/firmProfile",
+    "pages/index/pages/map/map",
+    "pages/index/pages/businessAsk/businessAsk",
+    "pages/linkUs/linkUs",
+    "pages/index/pages/afterSale/afterSale"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "清行新能源汽车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0b74b9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/indexIcon.png",
+        "selectedIconPath": "image/indexIcon_selected.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品介绍",
+        "iconPath": "image/productIcon.png",
+        "selectedIconPath": "image/productIcon_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "公司新闻",
+        "iconPath": "image/newsIcon.png",
+        "selectedIconPath": "image/newsIcon_selected.png"
+      },
+      {
+        "pagePath": "pages/linkUs/linkUs",
+        "text": "联系我们",
+        "iconPath": "image/linkUsIcon.png",
+        "selectedIconPath": "image/linkUsIcon_selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wxfa04785e75e06265",
+	"projectname": "%E6%B8%85%E8%A1%8C%E5%AE%98%E7%BD%91%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "公司新闻",
+					"pathName": "pages/news/news",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "产品介绍",
+					"pathName": "pages/product/product",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "公司新闻",
+					"pathName": "pages/news/news",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "一键导航",
+					"pathName": "pages/index/pages/map/map",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "业务咨询",
+					"pathName": "pages/index/pages/businessAsk/businessAsk",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "联系我们",
+					"pathName": "pages/linkUs/linkUs",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "售后服务",
+					"pathName": "pages/index/pages/afterSale/afterSale"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,192 @@
+/* pages/product/product.wxss */
+.odd_line{
+ position: relative;
+ left: 11.5rpx;
+ /* margin-top: 45rpx; */
+ height: 368rpx;
+ /* background: red; */
+ margin-top: 38rpx;
+}
+.odd_line .left_top{
+  position: absolute;
+  left: 8rpx;
+  top: 20rpx;
+  height:90rpx; 
+}
+.odd_line .left_top .waveLine{
+    display: inline-block;
+    width: 53rpx;
+    height: 16rpx;
+    margin-right: 9rpx;
+    position: relative;
+    top: 10rpx;
+}
+.odd_line .left_top .imageTitle{
+  height: 80rpx;
+  width: 300rpx;
+  position: absolute;
+}
+.odd_line .left_bottom{
+    border-bottom:1rpx solid #ddd;
+    border-left:1rpx solid #ddd;
+    font-size:20rpx;
+    /* padding:90rpx 17.5rpx 36.5rpx 17.5rpx; */
+    margin-left:31.5rpx;
+    width:256rpx;
+    position:relative;
+    top:76rpx;
+    height: 174rpx;
+}
+.even_line .right_bottom{
+  border-bottom: 1rpx solid #ddd;
+  border-right: 1rpx solid #ddd;
+  font-size: 20rpx;
+  /* padding: 90rpx 17.5rpx 36.5rpx 17.5rpx; */
+  margin-right: 31.5rpx;
+  width: 260rpx;
+  height: 180rpx;
+  position: absolute;
+  top: 68rpx;
+  right: 53rpx;
+}
+.odd_line .left_bottom view{
+  position: absolute;
+  top: 0rpx;
+  font-size:20rpx;
+   padding:40rpx 17.5rpx 36.5rpx 17.5rpx;
+   line-height: 30rpx;
+}
+.even_line .right_bottom view{
+  position: absolute;
+  top: 0rpx;
+  font-size:20rpx;
+   padding:40rpx 14rpx 36.5rpx 17.5rpx;
+   line-height: 30rpx;
+}
+.odd_line .right-image{
+   width: 344rpx;
+   height: 246rpx;
+   border:1rpx solid #ddd;
+   border-left:none;
+   display: inline-block;
+   position: absolute;
+   top: 0rpx;
+   right: 53rpx;
+}
+.odd_line .right-image .fisrt_image_normal{
+  width: 320rpx;
+  height: 231rpx;
+  position: absolute;
+  right: 96rpx;
+  top:92rpx;
+  z-index: 99;
+  border-radius: 6rpx;
+}
+.odd_line .right-image .second_image_normal{
+    width: 203rpx;
+   height: 148rpx;
+   position: absolute;
+   right: 22.5rpx;
+   top:136rpx;
+   border-radius: 6rpx; 
+}
+.even_line{
+ position: relative;
+ left: 40rpx;
+ /* margin-top: 195rpx;
+ margin-bottom:120rpx; */
+ height: 370rpx;
+
+}
+.even_line .right_top{
+  position: absolute;
+  right: 60rpx;
+  top: 8rpx;
+}
+.even_line .right_top .waveLine{
+    display: inline-block;
+    width: 53rpx;
+    height: 16rpx;
+    position: relative;
+    top:-26rpx;
+}
+.even_line .right_top .imageTitle{
+  height: 80rpx;
+  width: 300rpx;
+  position: relative;
+  right: 4rpx;
+}
+.even_line .left-image{
+   width: 344rpx;
+   height: 246rpx;
+   border:1rpx solid #ddd;
+   border-right:none;
+   display: inline-block;
+}
+.even_line .left-image .fisrt_image_normal{
+  width: 320rpx;
+  height: 231rpx;
+  position: absolute;
+  left: 32rpx;
+  top:96rpx;
+  transform: rotate(-6deg);  
+  border-radius: 6rpx;  
+  z-index: 99;      
+}
+.even_line .left-image .second_image_normal{
+    width: 204rpx;
+   height: 138rpx;
+   position: absolute;
+   left: 204rpx;
+   top:213rpx;
+  transform: rotate(6deg); 
+  border-radius: 6rpx;
+  z-index: 9;
+}
+.paramsLine{
+ width:400rpx;
+height:3rpx;
+background:#ccc;
+position:absolute;
+top:76rpx;
+left:2rpx;
+
+}
+.carDetail .even_line:nth-child(10){
+   height: 100rpx;
+   left:20rpx;
+   margin-top:-10px;
+}
+.carDetail .even_line:nth-child(10) .right_top{
+  right:40rpx;
+}
+.swiper-box{
+  position: relative;
+  margin: 43rpx 21rpx 21rpx 21rpx;
+}
+.swiper-box swiper{
+  height: 900rpx;
+}
+.dots{ 
+  position: absolute; 
+  right: 0; 
+  top: -25rpx; 
+  display: flex; 
+  justify-content: center; 
+} 
+.dots .dot{ 
+  margin: 0 6rpx; 
+  width: 10rpx; 
+  height: 10rpx; 
+  background: #cbcbcb; 
+  border-radius: 10rpx; 
+  transition: all .6s; 
+} 
+.dots .dot.active{ 
+  background: #0b74b9; 
+}
+ 
+swiper image {
+  width: 100%;
+  height: 100%;
+}

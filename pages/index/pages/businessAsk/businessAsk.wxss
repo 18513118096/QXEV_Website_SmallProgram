@@ -1,0 +1,90 @@
+/* pages/index/pages/businessAsk/businessAsk.wxss */
+.formBox{
+  background: #FFFFFF;
+  border-radius: 14rpx 14rpx 0 0;
+  padding: 40rpx 23rpx 0rpx 23rpx;
+  position: relative;
+  top: -28rpx;
+}
+.formBox .styleTitle{
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+radio-group{
+  width: 100%;
+}
+.flex_box{
+  height: 58rpx;
+  margin: 20rpx 0rpx 18rpx 0rpx;
+}
+.flex_item{
+  display: inline-block;
+  text-align: center;
+  height: 58rpx;
+  line-height: 58rpx;
+  width: 170rpx;
+  border: 2rpx solid #ddd;
+  border-radius: 6rpx;
+  font-size: 23rpx;
+  margin-right: 14rpx;
+  color: #666;
+}
+.flex_item image{
+  display: inline-block;
+  height: 20rpx;
+  width: 26rpx;
+  vertical-align: center;
+  margin-right: 10rpx;
+}
+.flex_item.active{
+  color: #0B74B9;
+   border: 2rpx solid #0B74B9;
+}
+.setion{
+  height: 302rpx;
+  border: 1px solid #eee;
+  border-radius: 6rpx;
+  font-size: 24rpx;
+   padding: 20rpx 10rpx 20rpx 20rpx;
+   position: relative;
+   margin-bottom: 20rpx;
+}
+.setion textarea{
+  width:100%;
+  color: #666;
+  font-size: 28rpx;
+}
+.setion .wordsLimt{
+  position: absolute;
+  bottom:10rpx;
+  right: 10rpx;
+  font-size: 18rpx;
+  color: #999;
+}
+.placeholderStyle{
+  color: #999;
+  font-size: 28rpx;
+  padding-top: 4rpx;
+}
+.inputPhone{
+  height: 60rpx;
+  margin-top: 12rpx;
+   border: 1px solid #eee;
+  border-radius: 6rpx;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+  padding-bottom: 8rpx;
+  color: #666;
+}
+.formBut{
+  margin-top: 42rpx;
+  /* box-shadow:  1px 1rpx 0 rgba(8,78,124,0.5); */
+  border-radius: 6rpx;
+  font-size: 30rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+button::after{
+border:none!important;
+}

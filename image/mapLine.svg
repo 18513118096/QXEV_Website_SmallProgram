@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="503px" viewBox="0 0 30 503" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>位置信息（切片）</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="位置信息（切片）" transform="translate(-120.000000, -35.000000)">
+            <g id="左侧-copy-2" transform="translate(121.000000, 36.000000)">
+                <path d="M14,50 L14,271.514108" id="Line-2" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <path d="M13.5,20.5 L13.5,0.475015605" id="Line-4" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <path d="M14,500.500625 L14,300.499167" id="Line-4-Copy" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <circle id="Oval-5" stroke="#999999" opacity="0.900000036" cx="14" cy="35" r="14"></circle>
+                <circle id="Oval-5-Copy" stroke="#999999" cx="14" cy="286" r="14"></circle>
+                <circle id="Oval-6" stroke="#999999" opacity="0.900000036" cx="14" cy="35" r="7"></circle>
+                <circle id="Oval-6-Copy" stroke="#999999" cx="14" cy="286" r="7"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

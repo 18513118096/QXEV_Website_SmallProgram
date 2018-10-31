@@ -1,0 +1,40 @@
+/* pages/index/pages/map/map.wxss */
+.mapContent{
+  padding: 0rpx 60rpx;
+  height: 370rpx;
+  margin-top: 40rpx;
+}
+.mapContent image{
+    width:30rpx;
+    float:left;
+    margin-right:28rpx;
+    margin-top:4rpx;                       
+}                                                                                                
+.mapBox .mapTitle{
+   height: 57rpx;
+   line-height: 57rpx;
+   font-size: 28rpx;
+   color: #555555;
+   font-weight:bold;
+}
+.mapBox .detailLocation{
+  font-size: 24rpx;
+  color: #666666;
+}
+.detailBut{
+  border: 2rpx solid #0B74B9!important;
+  border-radius: 6rpx;
+  height: 50rpx;
+  width: 148rpx;
+  line-height: 50rpx;
+  font-size: 23rpx;
+  color: #0B74B9;
+  margin: 16rpx auto 50rpx 58rpx;
+  text-align: center;
+}
+.mapBoxFirst{
+  position:relative;
+  top:16rpx;
+  /* margin-bottom: 94rpx; */
+  height: 260rpx;
+}

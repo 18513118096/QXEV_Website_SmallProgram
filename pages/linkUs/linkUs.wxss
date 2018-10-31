@@ -1,0 +1,62 @@
+/* pages/linkUs/linkUs.wxss */
+page{
+  background-color: #f3f3f3;
+}
+.mt36{
+  margin-top: 36rpx;
+}
+.aboutUs{
+  padding: 0rpx 25rpx;
+  background: #ffffff;
+  margin-bottom: 16rpx;
+}
+.aboutUs .about_list{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+.aboutUs .about_list image{
+  height: 26rpx;
+  width: 26rpx;
+  display: inline-block;
+  margin-right: 16rpx;
+  position:relative;
+  top:4rpx;
+}
+.aboutUs .about_list .fr image{
+  margin-right: -4rpx;
+}
+.aboutUs .about_list .fr{
+  font-size: 24rpx;
+color: #666666;
+}
+.aboutUs .about_detail{
+   box-shadow: 0 -1rpx 0 0 rgba(229,229,229,0.60);
+   padding:20rpx 33rpx 20rpx 54rpx;
+   font-size: 24rpx;
+   color: #666;
+}
+.aboutUs .about_detail view{
+  line-height: 40rpx;
+}
+.aboutUs .about_detail view::before{
+  content: "";
+  display: inline-block;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 8rpx;
+  background: #999;
+  position: relative;
+  top: -4rpx;
+  left: -10rpx;
+}
+.aboutUs .about_detail image{
+  width: 208rpx;
+  height: 204rpx;
+  margin-top:4rpx;
+}
+.aboutUs .about_detail text{
+  font-size:18rpx;
+  color: #666;
+  margin-left: 9rpx;
+}

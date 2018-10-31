@@ -1,0 +1,77 @@
+<!--pages/index/news.wxml-->
+<view class="news-tab">
+   <view wx:for="{{newsTitle}}" class="tab-item {{currentTab==index?'active':''}}" data-current="{{index}}" bindtap="clickTab">{{item}}</view>
+  </view>
+  <view class='news_Content' wx:if="{{currentTab==0}}">
+      <navigator class='news_list' wx:for="{{NewsList}}" url="pages/navigate/navigate?url={{item.url}}">
+         <image class="news_image" src='{{item.imageUrl}}'></image>
+         <view class='news_info'>
+               <view class='news_title'>{{item.newTitle}}</view>
+                <view class='news_BotInfo'>
+                    <view class='news_submitTime'>
+                        <image src='../../image/timeIcon.svg'></image>
+                        {{item.upLoadTime}}
+                    </view>
+                    <view class='news_readNum'>
+                        <image src='../../image/watchedIcon.svg'></image>
+                        {{item.watchedNum}}浏览
+                    </view>
+                </view>
+          </view>
+      </navigator>
+  </view>
+  <view  class='news_Content' wx:if="{{currentTab==1}}">
+      <navigator class='news_list' wx:for="{{MediaList}}"  url="pages/navigate/navigate?url={{item.url}}">
+         <image class="news_image" src='{{item.imageUrl}}'></image>
+         <view class='news_info'>
+               <view class='news_title'>{{item.newTitle}}</view>
+                <view class='news_BotInfo'>
+                    <view class='news_submitTime'>
+                        <image src='../../image/timeIcon.svg'></image>
+                        {{item.upLoadTime}}
+                    </view>
+                    <view class='news_readNum'>
+                        <image src='../../image/watchedIcon.svg'></image>
+                        {{item.watchedNum}}浏览
+                    </view>
+                </view>
+          </view>
+      </navigator>
+  </view>
+  <view  class='news_Content'  wx:if="{{currentTab==2}}">
+      <navigator class='news_list' wx:for="{{ActivityList}}"  url="pages/navigate/navigate?url={{item.url}}">
+         <image class="news_image" src='{{item.imageUrl}}'></image>
+         <view class='news_info'>
+               <view class='news_title'>{{item.newTitle}}</view>
+                <view class='news_BotInfo'>
+                    <view class='news_submitTime'>
+                        <image src='../../image/timeIcon.svg'></image>
+                        {{item.upLoadTime}}
+                    </view>
+                    <view class='news_readNum'>
+                        <image src='../../image/watchedIcon.svg'></image>
+                        {{item.watchedNum}}浏览
+                    </view>
+                </view>
+          </view>
+      </navigator>
+  </view>
+  <view  class='news_Content' wx:if="{{currentTab==3}}"  url="pages/navigate/navigate?url={{item.url}}">
+      <navigator class='news_list' wx:for="{{VedioList}}">
+         <image class="news_image" src='{{item.imageUrl}}'></image>
+         <image class="video" src='../../image/newsVideo.svg'></image>
+         <view class='news_info'>
+               <view class='news_title'>{{item.newTitle}}</view>
+                <view class='news_BotInfo'>
+                    <view class='news_submitTime'>
+                        <image src='../../image/timeIcon.svg'></image>
+                        {{item.upLoadTime}}
+                    </view>
+                    <view class='news_readNum'>
+                        <image src='../../image/watchedIcon.svg'></image>
+                        {{item.watchedNum}}浏览
+                    </view>
+                </view>
+          </view>
+      </navigator>
+  </view>

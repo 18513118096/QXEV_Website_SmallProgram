@@ -1,0 +1,97 @@
+/**index.wxss**/
+.indexSwiper{
+  height: 320rpx;
+}
+.indexSwiper .slide-image{
+  width: 100%;
+  height: 100%;
+}
+.index_list{
+  margin: 40rpx 55rpx 40rpx 55rpx;
+  overflow: hidden;
+}
+.index_list .index_li{
+  background:#ffffff;
+  width:100rpx;
+  margin:0rpx 80rpx 0rpx 0rpx;
+  float: left;
+  color: #333;
+  font-size: 22rpx;
+  text-align: center;
+}
+.index_list .index_li image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 10rpx;
+}
+.index_list .index_li:nth-child(4n){
+  margin-right: 0rpx
+}
+.banner-swiper {
+padding: 0rpx 16rpx;
+/* height: 340rpx; */
+overflow: hidden;
+ position: relative;
+}
+.banner-swiper swiper {
+display: block;
+height: 339rpx;
+position: relative;
+}
+.banner-swiper .slide-image {
+width: 100%;
+display: block;
+margin: 0 auto;
+height: 274rpx;
+margin-top:25rpx;
+}
+.banner-swiper .active{
+margin-top:0rpx;
+height: 339rpx;
+border-radius: 6rpx;
+}
+.banner-swiper .leftArrow,.banner-swiper .rightArrow{
+  width: 26rpx;
+  height: 29rpx;
+  position:absolute;
+  top: 155rpx;
+}
+.banner-swiper .leftArrow{
+  left:100rpx;
+  z-index:9;
+}
+.banner-swiper .rightArrow{
+  right: 100rpx;
+}
+.carInstruction{
+  text-align: center;
+  font-size: 22rpx;
+  color: #333333;
+  margin: 21rpx 0rpx 25rpx 0rpx;
+  padding: 0rpx 70rpx;
+}
+#myVideo{
+  width: 100%;
+  height: 422rpx;
+  z-index: 0;
+  margin-bottom: 20rpx;
+}
+.detailBut{
+  border: 2rpx solid #0B74B9!important;
+  border-radius: 6rpx;
+  height: 58rpx;
+  width: 170rpx;
+  line-height: 56rpx;
+  font-size: 23rpx;
+  color: #0B74B9;
+  text-align: center;
+  margin: 0rpx auto 50rpx auto;
+}
+.customer{
+  position: fixed;
+  width: 110rpx;
+  height: 110rpx;
+  right: 20rpx;
+  bottom: 470rpx;
+  }
+ 

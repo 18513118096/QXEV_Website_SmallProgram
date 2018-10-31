@@ -1,0 +1,15 @@
+/* pages/index/pages/firmProfile/firmProfile.wxss */
+.profileBox{
+  padding: 0rpx 23rpx 50rpx 23rpx;
+}
+.profileBox view{
+ font-size:26rpx;
+line-height:40rpx;
+text-indent:2em;
+margin-bottom:16rpx;
+}
+.profileBox image{
+  width: 100%;
+  background-size: contain;
+  height: 1293rpx;
+}

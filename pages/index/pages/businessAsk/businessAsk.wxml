@@ -1,0 +1,32 @@
+<!--pages/index/pages/businessAsk/businessAsk.wxml-->
+<view class='indexCarDetail'>
+    <image src='../../../../image/blueTopImage.jpg'></image>
+</view>
+<form  bindsubmit="formSubmit">
+  <view class='formBox'>
+  <view class='styleTitle'>咨询项目类型</view>
+  <radio-group bindchange="radioCheckedChange"  name="radioCheckVal">
+    <view class="flex_box">
+      <view class="flex_item {{radioCheckVal=='售前咨询'?'active':''}}">
+        <image src='../../../../image/radioChecked.svg' wx-if="{{radioCheckVal=='售前咨询'}}"></image>
+        <label>售前咨询<radio hidden="true" value="售前咨询"></radio></label>
+      </view>
+      <view class="flex_item {{radioCheckVal=='售后咨询'?'active':''}}">
+        <image src='../../../../image/radioChecked.svg' wx-if="{{radioCheckVal=='售后咨询'}}"></image>
+        <label>售后咨询<radio hidden="true" value="售后咨询"></radio></label>
+      </view>
+      <view class="flex_item {{radioCheckVal=='投诉建议'?'active':''}}">
+        <image src='../../../../image/radioChecked.svg' wx-if="{{radioCheckVal=='投诉建议'}}"></image>
+        <label>投诉建议<radio hidden="true" value="投诉建议"></radio></label>
+      </view>
+    </view>
+  </radio-group>
+  <view class='setion'>
+      <textarea placeholder="选择问题类型，帮助我们更快处理您的问题" placeholder-class="placeholderStyle" maxlength="300"   name="textarea"  bindinput='bindText' adjust-position="true" show-confirm-bar="{{false}}"></textarea>
+      <text class='wordsLimt'>{{wordsNum}}/300</text>
+  </view>
+  <view class='styleTitle'>联系方式</view>
+  <input placeholder='请输入联系方式' class='inputPhone' placeholder-class='placeholderStyle' value='' name="phone"></input>
+  <button formType="submit" class='formBut' plain style='border:none;background:#0b74b9; color: #FFFFFF;'>提交</button>
+</view>
+</form>

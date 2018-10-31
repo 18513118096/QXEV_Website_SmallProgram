@@ -1,0 +1,158 @@
+<!--pages/product/product.wxml-->
+<!-- 清行400车辆图片介绍 -->
+<view class='indexCarDetail'>
+    <image src='../../image/swiperIndex2.jpg'></image>
+</view>
+  <view class='carDetail'>
+        <!-- 安全技术 -->
+      <view class='odd_line'>
+        <view class='left_top'>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>
+            <image class='imageTitle' src='../../image/01.svg'></image>
+        </view>
+        <view class='left_bottom'>
+           <view> 主副驾驶双气囊，儿童安全锁等诸多安全保障，安全不减配，驾乘更舒心</view>
+        </view>
+        <view class='right-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+      </view>
+      <!-- 续航 -->
+      <view class='even_line'>
+        <view class='left-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+          <view class='right_top'>
+            <image class='imageTitle' src='../../image/02.svg'></image>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>      
+        </view>
+        <view class='right_bottom'>
+           <view> 一次续航最高可达380公里，引领电动汽车续航新高度</view>
+        </view>
+      </view>
+      <!-- 充电 -->
+      <view class='odd_line'>
+        <view class='left_top'>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>
+            <image class='imageTitle' src='../../image/03.svg'></image>
+        </view>
+        <view class='left_bottom'>
+            <view>家里充电，8小时充满，晚上充电白天开;在外快充，半小时可充至80%，尽享旅途美景</view>
+        </view>
+        <view class='right-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+      </view>
+      <!-- 电池 -->
+      <view class='even_line'>
+        <view class='left-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+          <view class='right_top'>
+            <image class='imageTitle' src='../../image/04.svg'></image>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>      
+        </view>
+        <view class='right_bottom'>
+            <view>高密度锂离子动力电池，通过 12 重极限安全检验</view>
+        </view>
+      </view>
+      <!-- 底盘 -->
+      <view class='odd_line'>
+        <view class='left_top'>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>
+            <image class='imageTitle' src='../../image/05.svg'></image>
+        </view>
+        <view class='left_bottom'>
+            <view>清行400采用独立悬挂，最小离地间隙达到150mm，驾乘更舒适</view>
+        </view>
+        <view class='right-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+      </view>
+      <!-- 外观 -->
+      <view class='even_line'>
+        <view class='left-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+          <view class='right_top'>
+            <image class='imageTitle' src='../../image/06.svg'></image>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>      
+        </view>
+        <view class='right_bottom'>
+            <view>创新性车前标与K字型辅助进气口使整体彰显完美“容颜”，让人一见倾心</view>
+        </view>
+      </view>
+      <!-- 内部空间 -->
+      <view class='odd_line'>
+        <view class='left_top'>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>
+            <image class='imageTitle' src='../../image/07.svg'></image>
+        </view>
+        <view class='left_bottom'>
+            <view>宜家宜商，是清行400区分于普通电动汽车的最大优势</view>
+        </view>
+        <view class='right-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+      </view>
+      <!-- 使用成本 -->
+      <view class='even_line'>
+        <view class='left-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+          <view class='right_top'>
+            <image class='imageTitle' src='../../image/08.svg'></image>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>      
+        </view>
+        <view class='right_bottom'>
+          <view>经济实用，百公里电费仅需8元</view>
+        </view>
+      </view>
+      <!-- 时尚配置 -->
+      <view class='odd_line'>
+        <view class='left_top'>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>
+            <image class='imageTitle' src='../../image/09.svg'></image>
+        </view>
+        <view class='left_bottom'>
+            <view>经济实用，百公里电费仅需8元</view>
+        </view>
+        <view class='right-image'>
+            <image class='fisrt_image_normal' src='../../image/aaa.jpg'></image>
+            <image class='second_image_normal'  src='../../image/aaa.jpg'></image>
+        </view>
+      </view>
+      <!-- 车辆参数 -->
+      <view class='even_line'>
+          <view class='paramsLine'></view>
+          <view class='right_top'>
+            <image class='imageTitle' src='../../image/10.svg'></image>
+            <image class='waveLine' src='../../image/waveLine.svg'></image>      
+        </view>
+      </view>
+      <!-- 底部参数轮播图 -->
+      <view class='swiper-box'>
+      <view class="dots"> 
+        <block wx:for="{{imgUrls}}" wx:key="unique"> 
+          <view class="dot {{index == swiperCurrent ? ' active' : ''}}"></view> 
+        </block> 
+    </view>
+    <swiper indicator-dots="{{indicatorDots}}" bindchange="swiperChange">
+      <block wx:for="{{imgUrls}}"> 
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  </view>

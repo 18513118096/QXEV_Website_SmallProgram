@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>切图</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M71.5999083,75.9911271 L71.5999083,27.5993142 L63.9903688,21 L38.4635377,30.5315957 L38.4635377,32.9761059 L61.5364623,25.154804 L61.5364623,79.4129371 L77,79.4129371 L77,75.9910507 L71.5999083,75.9910507 L71.5999083,75.9911271 Z M30.1175665,61.0822049 L42.3905368,58.6381531 L42.3905368,52.5281382 L30.1175665,55.7054896 L30.1175665,61.0822049 Z M30.1174901,79.4130135 L42.3904605,79.4130135 L42.3904605,73.0578524 L30.1174901,74.035687 L30.1174901,79.4130135 Z M30.1175665,70.3695711 L42.3905368,69.1476598 L42.3905368,63.0375685 L30.1175665,64.9928558 L30.1175665,70.3696475 L30.1175665,70.3695711 Z M30.1175665,51.7948386 L42.3905368,48.3732578 L42.3905368,42.0190898 L30.1175665,46.1738175 L30.1175665,51.7948386 Z M55.6445503,35.9089222 L48.7715189,31.7536598 L23,41.0411024 L23,79.6571665 L26.4351025,79.6571665 L26.4351025,42.7518547 L45.8264796,36.3971519 L45.8264796,79.4129371 L55.8899257,79.4129371 L55.6445503,35.9089222 Z" id="path-1"></path>
+        <filter x="-3.7%" y="-1.7%" width="107.4%" height="106.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0373774937   0 0 0 0 0.234089551   0 0 0 0 0.455649447  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-53.000000, -59.000000)">
+            <g id="Group" transform="translate(55.000000, 61.000000)">
+                <circle id="Oval-Copy-4" stroke="#CCCCCC" cx="50" cy="50" r="50"></circle>
+                <g id="公司介绍-copy" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0968D3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
